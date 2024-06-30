@@ -1,0 +1,248 @@
+/* RESET BROWSER PRESET STYLINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/**********************************************
+    making img, audio, video to take 100% of the width 
+    to fix overflow or horizontal scroll
+***********************************************/
+img, audio, video {
+    max-width: 100%;
+}
+
+
+/************************************
+     STYLING THE NAV BAR
+*************************************/
+
+nav {
+    background: orange;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;    
+}
+
+
+/********************************
+  STYLING THE HERO SECTION
+  *******************************/
+
+  .hero {
+    margin: 1.875em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875em;
+    padding: 1.3em;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
+  /***************************
+     SUB-HERO-SECTION
+   ***************************/
+
+   .sub-hero {
+    background: orange;
+    margin-top: 3.75em;
+    padding: 3.75em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+
+   .sub-hero h2 {
+    text-align: center;
+    font-size: 1.56rem;
+   }
+
+   .sub-hero span {
+    color: dodgerblue;
+   }
+
+   .sub-hero img {
+    border-radius: 8px;
+   }
+
+
+   /**************************
+        HAIRSTYLES 
+    *************************/
+
+    #hairstyles {
+        margin-top: 3.75em;
+        margin: 0 0 auto 0 auto;
+        padding: 0 1.5em;
+    }
+
+    #hairstyles h2 {
+        text-align: center;
+        color: orange;
+        margin-bottom: 1.5em;
+    }
+
+    #hairstyles ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5em;
+    }
+
+
+    /************************
+       PRICING SECTION
+
+      ***********************/
+       #pricing {
+        margin-top: 3.75em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 0 1.5em;
+       } 
+
+       #pricing h2 {
+        text-align: center;
+        color: orange;
+       }
+
+       #pricing table {
+        border-collapse: collapse;
+       }
+
+       #pricing table th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 0.5em;
+        width: 50%;
+       }
+
+       #pricing table tr:nth-child(even) {
+        background: #ddd;
+       }
+
+
+       /**************************
+               MEDIA
+        **************************/
+
+        #media {
+            margin-top: 3.75em;
+            background: black;
+            padding: 3.75em 1.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5em;
+        }
+
+        #media h2 {
+            text-align: center;
+            color: orange;
+        }
+
+        #media h4 {
+            color: #fff;
+        }
+
+        /*************************
+            ABOUT
+        **************************/
+
+        #about {
+            margin-top: 3.75em;
+            padding: 0 1.5em;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+        }
+
+        #about h2 {
+            color: orange;
+        }
+
+        #about p {
+            font-size: 1.5rem;
+        }
+
+    
+
+        /***********************
+           CONTACT 
+          **********************/
+
+          #contact {
+           background: orange; 
+           margin-top: 3.75em;
+           padding: 3.75em 1.5em;
+           display: flex;
+           flex-direction: column;
+           gap: 1.5em;  
+           align-items: center;
+           justify-content: center;
+          }
+
+          #contact h2 {
+            font-size: 2.5rem;
+            color: white;
+          }
+
+          #contact h3 {
+            text-align: center;
+          }
+
+          #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.64em;
+          }
+
+          #contact form label {
+            font-size: 1.3rem;
+          }
+
+          #contact form input,
+          #contact form textarea {
+            padding: 0.6em 0.8em;
+            border: orange;
+            border-radius: 4px;
+          }
+
+          #contact form button {
+            background: black;
+            padding: 0.6em 0.8em;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 1.2rem;
+            cursor: pointer;
+          }
+
+
+
+
+        
+
+        
